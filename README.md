@@ -3,4 +3,11 @@ In this project, I explored a dataset of housing information using various data 
 
 Link to data source: https://github.com/rashida048/Datasets/blob/master/home_data.csv
 
+Libraries used: csv, pandas, pandas profiling, numpy, matplotlib, seaborn
+
+Summary Statistics
+The summary statistics script calculates basic statistics about the data, including count, mean, min/max, standard deviation, and quartiles.
+
+Univariate Analysis
+
 
