@@ -17,4 +17,7 @@ This script displays histograms for all the columns in the dataset.
 **Bivariate Analysis (Scatterplot):**
 This script creates a scatterplot to show the relationship between square footage of living space and price, showing that there is a mild positive correlation - ie, homes with a larger square footage are more likely to have a higher cost.
 
+**Variable Correlations:**
+This script calculates the (rounded) correlation coefficient between all variables.
+
 
