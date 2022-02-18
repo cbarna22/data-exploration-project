@@ -1,7 +1,87 @@
-Python 3.9.10 (v3.9.10:f2f3f53782, Jan 13 2022, 17:02:14) 
-[Clang 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
-========== RESTART: /Users/Camille/Documents/variable-correlations.py ==========
+                 id  price  bedrooms  bathrooms  sqft_living  sqft_lot  \
+id             1.00  -0.02      0.00       0.01        -0.01     -0.13   
+price         -0.02   1.00      0.31       0.53         0.70      0.09   
+bedrooms       0.00   0.31      1.00       0.52         0.58      0.03   
+bathrooms      0.01   0.53      0.52       1.00         0.75      0.09   
+sqft_living   -0.01   0.70      0.58       0.75         1.00      0.17   
+sqft_lot      -0.13   0.09      0.03       0.09         0.17      1.00   
+floors         0.02   0.26      0.18       0.50         0.35     -0.01   
+waterfront    -0.00   0.27     -0.01       0.06         0.10      0.02   
+view           0.01   0.40      0.08       0.19         0.28      0.07   
+condition     -0.02   0.04      0.03      -0.12        -0.06     -0.01   
+grade          0.01   0.67      0.36       0.66         0.76      0.11   
+sqft_above    -0.01   0.61      0.48       0.69         0.88      0.18   
+sqft_basement -0.01   0.32      0.30       0.28         0.44      0.02   
+yr_built       0.02   0.05      0.15       0.51         0.32      0.05   
+yr_renovated  -0.02   0.13      0.02       0.05         0.06      0.01   
+zipcode       -0.01  -0.05     -0.15      -0.20        -0.20     -0.13   
+lat           -0.00   0.31     -0.01       0.02         0.05     -0.09   
+long           0.02   0.02      0.13       0.22         0.24      0.23   
+sqft_living15 -0.00   0.59      0.39       0.57         0.76      0.14   
+sqft_lot15    -0.14   0.08      0.03       0.09         0.18      0.72   
 
->>> 
+               floors  waterfront  view  condition  grade  sqft_above  \
+id               0.02       -0.00  0.01      -0.02   0.01       -0.01   
+price            0.26        0.27  0.40       0.04   0.67        0.61   
+bedrooms         0.18       -0.01  0.08       0.03   0.36        0.48   
+bathrooms        0.50        0.06  0.19      -0.12   0.66        0.69   
+sqft_living      0.35        0.10  0.28      -0.06   0.76        0.88   
+sqft_lot        -0.01        0.02  0.07      -0.01   0.11        0.18   
+floors           1.00        0.02  0.03      -0.26   0.46        0.52   
+waterfront       0.02        1.00  0.40       0.02   0.08        0.07   
+view             0.03        0.40  1.00       0.05   0.25        0.17   
+condition       -0.26        0.02  0.05       1.00  -0.14       -0.16   
+grade            0.46        0.08  0.25      -0.14   1.00        0.76   
+sqft_above       0.52        0.07  0.17      -0.16   0.76        1.00   
+sqft_basement   -0.25        0.08  0.28       0.17   0.17       -0.05   
+yr_built         0.49       -0.03 -0.05      -0.36   0.45        0.42   
+yr_renovated     0.01        0.09  0.10      -0.06   0.01        0.02   
+zipcode         -0.06        0.03  0.08       0.00  -0.18       -0.26   
+lat              0.05       -0.01  0.01      -0.01   0.11       -0.00   
+long             0.13       -0.04 -0.08      -0.11   0.20        0.34   
+sqft_living15    0.28        0.09  0.28      -0.09   0.71        0.73   
+sqft_lot15      -0.01        0.03  0.07      -0.00   0.12        0.19   
+
+               sqft_basement  yr_built  yr_renovated  zipcode   lat  long  \
+id                     -0.01      0.02         -0.02    -0.01 -0.00  0.02   
+price                   0.32      0.05          0.13    -0.05  0.31  0.02   
+bedrooms                0.30      0.15          0.02    -0.15 -0.01  0.13   
+bathrooms               0.28      0.51          0.05    -0.20  0.02  0.22   
+sqft_living             0.44      0.32          0.06    -0.20  0.05  0.24   
+sqft_lot                0.02      0.05          0.01    -0.13 -0.09  0.23   
+floors                 -0.25      0.49          0.01    -0.06  0.05  0.13   
+waterfront              0.08     -0.03          0.09     0.03 -0.01 -0.04   
+view                    0.28     -0.05          0.10     0.08  0.01 -0.08   
+condition               0.17     -0.36         -0.06     0.00 -0.01 -0.11   
+grade                   0.17      0.45          0.01    -0.18  0.11  0.20   
+sqft_above             -0.05      0.42          0.02    -0.26 -0.00  0.34   
+sqft_basement           1.00     -0.13          0.07     0.07  0.11 -0.14   
+yr_built               -0.13      1.00         -0.22    -0.35 -0.15  0.41   
+yr_renovated            0.07     -0.22          1.00     0.06  0.03 -0.07   
+zipcode                 0.07     -0.35          0.06     1.00  0.27 -0.56   
+lat                     0.11     -0.15          0.03     0.27  1.00 -0.14   
+long                   -0.14      0.41         -0.07    -0.56 -0.14  1.00   
+sqft_living15           0.20      0.33         -0.00    -0.28  0.05  0.33   
+sqft_lot15              0.02      0.07          0.01    -0.15 -0.09  0.25   
+
+               sqft_living15  sqft_lot15  
+id                     -0.00       -0.14  
+price                   0.59        0.08  
+bedrooms                0.39        0.03  
+bathrooms               0.57        0.09  
+sqft_living             0.76        0.18  
+sqft_lot                0.14        0.72  
+floors                  0.28       -0.01  
+waterfront              0.09        0.03  
+view                    0.28        0.07  
+condition              -0.09       -0.00  
+grade                   0.71        0.12  
+sqft_above              0.73        0.19  
+sqft_basement           0.20        0.02  
+yr_built                0.33        0.07  
+yr_renovated           -0.00        0.01  
+zipcode                -0.28       -0.15  
+lat                     0.05       -0.09  
+long                    0.33        0.25  
+sqft_living15           1.00        0.18  
+sqft_lot15              0.18        1.00  
