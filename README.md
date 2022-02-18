@@ -11,4 +11,7 @@ The summary statistics script calculates basic statistics about the data, includ
 **Univariate Analysis:**
 This script shows the distribution of price data for homes and answers the question 'Is the price data skewed?'. The answer is yes - the data is skewed to the right, meaning people disproportionately buy lower-priced houses compared to expensive ones.
 
+**Histograms:**
+This script displays histograms for all the columns in the dataset.
+
 
